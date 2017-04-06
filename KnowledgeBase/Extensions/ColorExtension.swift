@@ -30,16 +30,20 @@ extension UIColor{
     }
     
     class open var lightLargeText:UIColor{
-        return UIColor(fromHexString: "#263238").withAlphaComponent(0.35)
+        return UIColor.white.withAlphaComponent(0.85)
     }
     class open var lightNormalText:UIColor{
-        return UIColor(fromHexString: "#263238").withAlphaComponent(0.5)
+        return UIColor.white.withAlphaComponent(0.5)
     }
     
     class open var secondaryLightLargeText:UIColor{
-        return UIColor(fromHexString: "#aeea00").withAlphaComponent(0.44)
+        return UIColor.black.withAlphaComponent(0.44)
     }
     class open var secondaryLightNormalText:UIColor{
-        return UIColor(fromHexString: "#aeea00").withAlphaComponent(0.56)
+        return UIColor.black.withAlphaComponent(0.56)
+    }
+    
+    class open var lightGrayKB:UIColor{
+        return UIColor(fromHexString: "#ededed")
     }
 }

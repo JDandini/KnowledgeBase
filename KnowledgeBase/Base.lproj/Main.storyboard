@@ -18,7 +18,7 @@
                         <viewControllerLayoutGuide type="bottom" id="VJX-k5-5bX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="SKR-4l-cb4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -37,7 +37,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Wph-1a-bKf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nBg-I7-SKC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -47,16 +47,16 @@
             </objects>
             <point key="canvasLocation" x="-314" y="1164"/>
         </scene>
-        <!--View Controller-->
+        <!--AreasVC-->
         <scene sceneID="wKY-8C-6az">
             <objects>
-                <viewController id="VNq-gU-LCr" sceneMemberID="viewController">
+                <viewController id="VNq-gU-LCr" customClass="AreasVC" customModule="KnowledgeBase" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vL7-oM-S3b"/>
                         <viewControllerLayoutGuide type="bottom" id="U9n-ym-pTc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ECe-Pj-SfO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -70,12 +70,13 @@
         <scene sceneID="oei-II-WLU">
             <objects>
                 <tabBarController id="Nry-r4-XEn" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="PhE-fy-td4">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="PhE-fy-td4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.1960784314" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.68235294117647061" green="0.91764705882352937" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.14901960784313725" green="0.19607843137254902" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.14901960780000001" green="0.1960784314" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="6UY-Ee-8Oe" kind="relationship" relationship="viewControllers" id="cbC-t9-v2n"/>
