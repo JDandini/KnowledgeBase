@@ -1,0 +1,39 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - KVNProgress (2.3.1)
+  - MaterialControls (1.2.2)
+  - MaterialDesignSymbol (2.0.2)
+  - pop (1.0.9)
+  - SwiftyMarkdown (0.3.4)
+  - UIFloatLabelTextField (1.2.7)
+
+DEPENDENCIES:
+  - Colours
+  - Crashlytics
+  - Fabric
+  - KVNProgress
+  - MaterialControls (~> 1.2.2)
+  - MaterialDesignSymbol
+  - pop (~> 1.0)
+  - SwiftyMarkdown
+  - UIFloatLabelTextField
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
+  MaterialControls: 1c6b29e78d3a13d8dd6a67ed31b6d26eb5de8f72
+  MaterialDesignSymbol: 121d2d7e0710ea6edaf71e5cd0ca206d4de5daa5
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SwiftyMarkdown: e227c4f67000248358be3d566e5f51e9a020757d
+  UIFloatLabelTextField: ec6e82ae7cc06185bda955a9dce17e81cf34327c
+
+PODFILE CHECKSUM: e38bcf3e61c534be8b89bc0c0395d7485c5dff34
+
+COCOAPODS: 1.2.0
