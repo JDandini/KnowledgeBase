@@ -22,6 +22,7 @@
 		CC178A231E96E2CA002C457D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC178A171E96E2CA002C457D /* Roboto-Thin.ttf */; };
 		CC178A241E96E2CA002C457D /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC178A181E96E2CA002C457D /* Roboto-ThinItalic.ttf */; };
 		CC178A271E96E761002C457D /* AreasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC178A261E96E761002C457D /* AreasVC.swift */; };
+		CC178A291E96EA8A002C457D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC178A281E96EA8A002C457D /* Constants.swift */; };
 		CCDD13831E96D33E003B7CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD13821E96D33E003B7CD7 /* AppDelegate.swift */; };
 		CCDD13881E96D33E003B7CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDD13861E96D33E003B7CD7 /* Main.storyboard */; };
 		CCDD138A1E96D33E003B7CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDD13891E96D33E003B7CD7 /* Assets.xcassets */; };
@@ -73,6 +74,7 @@
 		CC178A171E96E2CA002C457D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "Assets/Fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		CC178A181E96E2CA002C457D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "Assets/Fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		CC178A261E96E761002C457D /* AreasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AreasVC.swift; path = ViewControllers/AreasVC.swift; sourceTree = "<group>"; };
+		CC178A281E96EA8A002C457D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Classes/Constants.swift; sourceTree = "<group>"; };
 		CCDD137F1E96D33E003B7CD7 /* KnowledgeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowledgeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDD13821E96D33E003B7CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDD13871E96D33E003B7CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -164,8 +166,17 @@
 			children = (
 				CCDD13B21E96DABE003B7CD7 /* Extension */,
 				CC178A0C1E96E2B8002C457D /* Fonts */,
+				CC178A2A1E96EA93002C457D /* Classes */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		CC178A2A1E96EA93002C457D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC178A281E96EA8A002C457D /* Constants.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		CCDD13761E96D33E003B7CD7 = {
@@ -527,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC178A291E96EA8A002C457D /* Constants.swift in Sources */,
 				CCDD13B41E96DAE1003B7CD7 /* ColorExtension.swift in Sources */,
 				CC178A271E96E761002C457D /* AreasVC.swift in Sources */,
 				CCDD13B11E96DAAA003B7CD7 /* FontExtension.swift in Sources */,

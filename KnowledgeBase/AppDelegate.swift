@@ -18,6 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setNavigationAppearance()
         setTabbarAppearenace()
         UIApplication.shared.statusBarStyle = .lightContent
+        var isOnDev = true
+        #if DEBUG
+            isOnDev = true
+        #else
+            isOnDev = false
+        #endif
+        //Setting the enviroment for all the project
+        UserDefaults.standard.set(isOnDev, forKey: "isOnDev")
         return true
     }
     
